@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot-vercel",
+  "version": "1.0.0",
+  "description": "Telegram Bot deployed on Vercel with KV storage",
+  "main": "api/matches.js",
+  "scripts": {
+    "start": "node api/matches.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
+
